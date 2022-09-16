@@ -27,7 +27,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oRYR76DQUAf8vzVAaU3CgkKemVZ8",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "flvJwKkg9P5ofS2mQ_UMCTl1aUxmOV2G2YPVGS3PaEE",
+      useTemplateId: "wbsRlfv7NI3ZkYVnL3lauPbxcKoiT412IVqBVs9oM1M",
       // 所在省份
       province: "贵州",
       // 所在城市
@@ -40,12 +40,11 @@ export const config = {
       openUrl: "https://wangxinleo.cn",
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
-        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {"type": "*生日", "name": "宝宝", "year": "2003", "date": "09-18"},
-        {"type": "节日", "name": "起始日", "year": "2022", "date": "07.21"},
-        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-        {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+    
+     
+       // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {"type": "生日", "name": "宝宝", "year": "2003", "date": "10.13"},
+        {"type": "节日", "name": "我的", "year": "2003", "date": "05.15"},
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
